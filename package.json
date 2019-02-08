@@ -1,0 +1,42 @@
+{
+  "name": "try-lit",
+  "private": true,
+  "description": "Try lit-html and LitElement now",
+  "scripts": {
+    "start": "parcel"
+  },
+  "dependencies": {
+    "lit-element": "^2.0.1",
+    "lit-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel": "^1.11.0",
+    "tslint": "^5.12.1",
+    "tslint-xo": "^0.14.0",
+    "typescript": "^3.3.3"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "last 1 Chrome version"
+            ]
+          }
+        }
+      ]
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polymer-Japan/try-lit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Polymer-Japan/try-lit/issues"
+  },
+  "homepage": "https://github.com/Polymer-Japan/try-lit#readme"
+}
