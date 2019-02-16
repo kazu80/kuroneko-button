@@ -17,20 +17,9 @@
     "tslint-xo": "^0.14.0",
     "typescript": "^3.3.3"
   },
-  "babel": {
-    "presets": [
-      [
-        "env",
-        {
-          "targets": {
-            "browsers": [
-              "last 1 Chrome version"
-            ]
-          }
-        }
-      ]
-    ]
-  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Polymer-Japan/try-lit.git"
