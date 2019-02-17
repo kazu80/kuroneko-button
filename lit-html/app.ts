@@ -1,7 +1,7 @@
 import {html, render} from 'lit-html';
 
 const myTemplate = html`
-  <div>Hello World</div>
+  <img src="images/cat.jpg">
 `;
 
 render(myTemplate, document.body);
